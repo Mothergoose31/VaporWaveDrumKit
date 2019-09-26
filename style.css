@@ -1,7 +1,9 @@
 html {
     font-size: 10px;
     background: url(./vapor.png) bottom center;
+    background-repeat: no-repeat;
     background-size: cover;
+    
   }
   
   body,html {
@@ -11,7 +13,6 @@ html {
   }
   .songs{
     display:flex;
-    
     flex: 1;
     min-height: 49vh;
     align-items: flex-start;
